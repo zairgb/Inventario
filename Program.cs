@@ -39,12 +39,16 @@ do
             Console.WriteLine("Agregar producto");
             Console.Write("Ingrese el nombre del producto: ");
             String nombre = Console.ReadLine() ?? string.Empty;
+            
             Console.Write("Ingrese la descripción del producto: ");
             String descripcion = Console.ReadLine() ?? string.Empty;
+            
             Console.Write("Ingrese el precio del producto: ");
             decimal precio = decimal.Parse(Console.ReadLine() ?? string.Empty);
+
             Console.Write("Ingrese el stock del producto: ");
             int stock = int.Parse(Console.ReadLine() ?? string.Empty);
+            
             Console.Write("Ingrese la categoría del producto: ");
             String categoria = Console.ReadLine() ?? string.Empty;
 
@@ -70,8 +74,43 @@ do
             {
                 foreach (var producto in productos)
                 {
-                    Console.WriteLine($"ID: {producto.ID}, Nombre: {producto.Nombre}, Descripción: {producto.Descripcion}, Precio: {producto.Precio}, Stock: {producto.Stock}, Categoría: {producto.Categoria}");
+                    Console.WriteLine($"ID: {producto.ID}");
+                    Console.WriteLine($"Nombre: {producto.Nombre}");
+                    Console.WriteLine($"Descripción: {producto.Descripcion}");
+                    Console.WriteLine($"Precio: {producto.Precio}");
+                    Console.WriteLine($"Stock: {producto.Stock}");
+                    Console.WriteLine($"Categoría: {producto.Categoria}");
+                    Console.WriteLine($"=========================================");
                 }
+            }
+
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadLine();
+            break;
+
+        case 3:
+            Console.WriteLine("Buscar producto");
+            Console.Write("Ingrese el nombre del producto a buscar: ");
+            string nombreBusqueda = Console.ReadLine() ?? string.Empty;
+
+            var productoEncontrado = inventario.VerProductos().Where(c => c.Nombre.Contains(nombreBusqueda, StringComparison.OrdinalIgnoreCase)).FirstOrDefault();
+            
+            if (productoEncontrado != null)
+            {
+                foreach (var producto in inventario.VerProductos().Where(c => c.Nombre.Contains(nombreBusqueda, StringComparison.OrdinalIgnoreCase)))
+                {
+                    Console.WriteLine($"ID: {producto.ID}");
+                    Console.WriteLine($"Nombre: {producto.Nombre}");
+                    Console.WriteLine($"Descripción: {producto.Descripcion}");
+                    Console.WriteLine($"Precio: {producto.Precio}");
+                    Console.WriteLine($"Stock: {producto.Stock}");
+                    Console.WriteLine($"Categoría: {producto.Categoria}");
+                    Console.WriteLine($"=========================================");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Producto no encontrado.");
             }
 
             Console.WriteLine("\nPresione cualquier tecla para continuar...");
