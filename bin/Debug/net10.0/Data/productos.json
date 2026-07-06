@@ -1,0 +1,402 @@
+[
+  {
+    "ID": 1,
+    "Nombre": "Mouse Gamer",
+    "Descripcion": "Mouse óptico RGB",
+    "Precio": 450.00,
+    "Stock": 35,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 2,
+    "Nombre": "Teclado Mecánico",
+    "Descripcion": "Teclado RGB switches azules",
+    "Precio": 1200.00,
+    "Stock": 18,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 3,
+    "Nombre": "Monitor 24 pulgadas",
+    "Descripcion": "Monitor Full HD IPS",
+    "Precio": 3500.00,
+    "Stock": 12,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 4,
+    "Nombre": "Laptop Lenovo",
+    "Descripcion": "Laptop Ryzen 7 16GB RAM",
+    "Precio": 18999.00,
+    "Stock": 6,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 5,
+    "Nombre": "Disco SSD 1TB",
+    "Descripcion": "Unidad de estado sólido",
+    "Precio": 1800.00,
+    "Stock": 22,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 6,
+    "Nombre": "Memoria USB 64GB",
+    "Descripcion": "USB 3.0",
+    "Precio": 220.00,
+    "Stock": 60,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 7,
+    "Nombre": "Audífonos Bluetooth",
+    "Descripcion": "Audífonos inalámbricos",
+    "Precio": 950.00,
+    "Stock": 30,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 8,
+    "Nombre": "Webcam HD",
+    "Descripcion": "Cámara 1080p",
+    "Precio": 850.00,
+    "Stock": 14,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 9,
+    "Nombre": "Silla Gamer",
+    "Descripcion": "Silla ergonómica",
+    "Precio": 4200.00,
+    "Stock": 8,
+    "Categoria": "Muebles"
+  },
+  {
+    "ID": 10,
+    "Nombre": "Escritorio",
+    "Descripcion": "Escritorio de madera",
+    "Precio": 2800.00,
+    "Stock": 10,
+    "Categoria": "Muebles"
+  },
+  {
+    "ID": 11,
+    "Nombre": "Lámpara LED",
+    "Descripcion": "Lámpara de escritorio",
+    "Precio": 350.00,
+    "Stock": 40,
+    "Categoria": "Hogar"
+  },
+  {
+    "ID": 12,
+    "Nombre": "Ventilador",
+    "Descripcion": "Ventilador de pedestal",
+    "Precio": 950.00,
+    "Stock": 15,
+    "Categoria": "Hogar"
+  },
+  {
+    "ID": 13,
+    "Nombre": "Cafetera",
+    "Descripcion": "Cafetera eléctrica",
+    "Precio": 1500.00,
+    "Stock": 9,
+    "Categoria": "Electrodomésticos"
+  },
+  {
+    "ID": 14,
+    "Nombre": "Microondas",
+    "Descripcion": "Microondas 20 litros",
+    "Precio": 2400.00,
+    "Stock": 7,
+    "Categoria": "Electrodomésticos"
+  },
+  {
+    "ID": 15,
+    "Nombre": "Refrigerador",
+    "Descripcion": "Refrigerador 11 pies",
+    "Precio": 12500.00,
+    "Stock": 4,
+    "Categoria": "Electrodomésticos"
+  },
+  {
+    "ID": 16,
+    "Nombre": "Smart TV 50\"",
+    "Descripcion": "Televisor 4K",
+    "Precio": 9800.00,
+    "Stock": 5,
+    "Categoria": "Electrónica"
+  },
+  {
+    "ID": 17,
+    "Nombre": "Bocina Bluetooth",
+    "Descripcion": "Bocina portátil",
+    "Precio": 1200.00,
+    "Stock": 17,
+    "Categoria": "Electrónica"
+  },
+  {
+    "ID": 18,
+    "Nombre": "Tablet",
+    "Descripcion": "Tablet 10 pulgadas",
+    "Precio": 5200.00,
+    "Stock": 11,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 19,
+    "Nombre": "Impresora",
+    "Descripcion": "Impresora multifuncional",
+    "Precio": 3400.00,
+    "Stock": 9,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 20,
+    "Nombre": "Router WiFi",
+    "Descripcion": "Router doble banda",
+    "Precio": 890.00,
+    "Stock": 25,
+    "Categoria": "Tecnología"
+  },
+  {
+    "ID": 21,
+    "Nombre": "Balón de Fútbol",
+    "Descripcion": "Balón profesional",
+    "Precio": 600.00,
+    "Stock": 20,
+    "Categoria": "Deportes"
+  },
+  {
+    "ID": 22,
+    "Nombre": "Raqueta de Tenis",
+    "Descripcion": "Raqueta de aluminio",
+    "Precio": 1800.00,
+    "Stock": 8,
+    "Categoria": "Deportes"
+  },
+  {
+    "ID": 23,
+    "Nombre": "Mancuernas 10kg",
+    "Descripcion": "Par de mancuernas",
+    "Precio": 950.00,
+    "Stock": 12,
+    "Categoria": "Deportes"
+  },
+  {
+    "ID": 24,
+    "Nombre": "Bicicleta",
+    "Descripcion": "Bicicleta de montaña",
+    "Precio": 7500.00,
+    "Stock": 5,
+    "Categoria": "Deportes"
+  },
+  {
+    "ID": 25,
+    "Nombre": "Casco",
+    "Descripcion": "Casco para ciclismo",
+    "Precio": 850.00,
+    "Stock": 15,
+    "Categoria": "Deportes"
+  },
+  {
+    "ID": 26,
+    "Nombre": "Cuaderno Profesional",
+    "Descripcion": "100 hojas",
+    "Precio": 65.00,
+    "Stock": 120,
+    "Categoria": "Papelería"
+  },
+  {
+    "ID": 27,
+    "Nombre": "Pluma Azul",
+    "Descripcion": "Pluma de tinta azul",
+    "Precio": 15.00,
+    "Stock": 300,
+    "Categoria": "Papelería"
+  },
+  {
+    "ID": 28,
+    "Nombre": "Marcadores",
+    "Descripcion": "Caja con 12 colores",
+    "Precio": 180.00,
+    "Stock": 45,
+    "Categoria": "Papelería"
+  },
+  {
+    "ID": 29,
+    "Nombre": "Mochila Escolar",
+    "Descripcion": "Mochila resistente",
+    "Precio": 650.00,
+    "Stock": 18,
+    "Categoria": "Papelería"
+  },
+  {
+    "ID": 30,
+    "Nombre": "Calculadora Científica",
+    "Descripcion": "Calculadora para ingeniería",
+    "Precio": 480.00,
+    "Stock": 16,
+    "Categoria": "Papelería"
+  },
+  {
+    "ID": 31,
+    "Nombre": "Playera",
+    "Descripcion": "Playera de algodón",
+    "Precio": 250.00,
+    "Stock": 40,
+    "Categoria": "Ropa"
+  },
+  {
+    "ID": 32,
+    "Nombre": "Pantalón",
+    "Descripcion": "Pantalón de mezclilla",
+    "Precio": 650.00,
+    "Stock": 28,
+    "Categoria": "Ropa"
+  },
+  {
+    "ID": 33,
+    "Nombre": "Sudadera",
+    "Descripcion": "Sudadera con capucha",
+    "Precio": 850.00,
+    "Stock": 14,
+    "Categoria": "Ropa"
+  },
+  {
+    "ID": 34,
+    "Nombre": "Zapatos Deportivos",
+    "Descripcion": "Tenis para correr",
+    "Precio": 1900.00,
+    "Stock": 12,
+    "Categoria": "Ropa"
+  },
+  {
+    "ID": 35,
+    "Nombre": "Gorra",
+    "Descripcion": "Gorra ajustable",
+    "Precio": 220.00,
+    "Stock": 30,
+    "Categoria": "Ropa"
+  },
+  {
+    "ID": 36,
+    "Nombre": "Cepillo Dental",
+    "Descripcion": "Cepillo suave",
+    "Precio": 45.00,
+    "Stock": 150,
+    "Categoria": "Higiene"
+  },
+  {
+    "ID": 37,
+    "Nombre": "Pasta Dental",
+    "Descripcion": "Pasta dental 150ml",
+    "Precio": 55.00,
+    "Stock": 110,
+    "Categoria": "Higiene"
+  },
+  {
+    "ID": 38,
+    "Nombre": "Shampoo",
+    "Descripcion": "Shampoo 750ml",
+    "Precio": 120.00,
+    "Stock": 70,
+    "Categoria": "Higiene"
+  },
+  {
+    "ID": 39,
+    "Nombre": "Jabón",
+    "Descripcion": "Jabón antibacterial",
+    "Precio": 28.00,
+    "Stock": 180,
+    "Categoria": "Higiene"
+  },
+  {
+    "ID": 40,
+    "Nombre": "Desodorante",
+    "Descripcion": "Desodorante en aerosol",
+    "Precio": 95.00,
+    "Stock": 65,
+    "Categoria": "Higiene"
+  },
+  {
+    "ID": 41,
+    "Nombre": "Arroz 1kg",
+    "Descripcion": "Arroz blanco",
+    "Precio": 38.00,
+    "Stock": 90,
+    "Categoria": "Alimentos"
+  },
+  {
+    "ID": 42,
+    "Nombre": "Frijol 1kg",
+    "Descripcion": "Frijol negro",
+    "Precio": 42.00,
+    "Stock": 80,
+    "Categoria": "Alimentos"
+  },
+  {
+    "ID": 43,
+    "Nombre": "Aceite 1L",
+    "Descripcion": "Aceite vegetal",
+    "Precio": 55.00,
+    "Stock": 50,
+    "Categoria": "Alimentos"
+  },
+  {
+    "ID": 44,
+    "Nombre": "Leche 1L",
+    "Descripcion": "Leche entera",
+    "Precio": 30.00,
+    "Stock": 70,
+    "Categoria": "Alimentos"
+  },
+  {
+    "ID": 45,
+    "Nombre": "Pan de Caja",
+    "Descripcion": "Pan integral",
+    "Precio": 48.00,
+    "Stock": 35,
+    "Categoria": "Alimentos"
+  },
+  {
+    "ID": 46,
+    "Nombre": "Agua 1L",
+    "Descripcion": "Agua purificada",
+    "Precio": 18.00,
+    "Stock": 200,
+    "Categoria": "Bebidas"
+  },
+  {
+    "ID": 47,
+    "Nombre": "Refresco 2L",
+    "Descripcion": "Refresco sabor cola",
+    "Precio": 42.00,
+    "Stock": 85,
+    "Categoria": "Bebidas"
+  },
+  {
+    "ID": 48,
+    "Nombre": "Jugo de Naranja",
+    "Descripcion": "Jugo natural 1L",
+    "Precio": 36.00,
+    "Stock": 60,
+    "Categoria": "Bebidas"
+  },
+  {
+    "ID": 49,
+    "Nombre": "Café Molido",
+    "Descripcion": "Café gourmet 500g",
+    "Precio": 165.00,
+    "Stock": 25,
+    "Categoria": "Alimentos"
+  },
+  {
+    "ID": 50,
+    "Nombre": "Chocolate en Polvo",
+    "Descripcion": "Chocolate para leche",
+    "Precio": 85.00,
+    "Stock": 45,
+    "Categoria": "Alimentos"
+  }
+]

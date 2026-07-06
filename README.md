@@ -207,13 +207,13 @@ Durante el desarrollo se practicarán los siguientes temas:
 |---------------|--------|
 | Agregar producto | ✅ |
 | Mostrar productos | ✅ |
-| Buscar producto | 🚧 |
-| Editar producto | 🚧 |
-| Eliminar producto | 🚧 |
-| Entrada de mercancía | ⏳ |
-| Salida de mercancía | ⏳ |
-| Guardar en JSON | ⏳ |
-| Cargar desde JSON | ⏳ |
+| Buscar producto | ✅ |
+| Editar producto | ✅ |
+| Eliminar producto | ✅ |
+| Entrada de mercancía | ✅ |
+| Salida de mercancía | ✅ |
+| Guardar en JSON | ✅ |
+| Cargar desde JSON | ✅ |
 | Reportes | ⏳ |
 
 **Leyenda**
