@@ -79,8 +79,11 @@ SistemaInventario/
 ├── Services/
 │   └── InventarioService.cs
 │
-├── Data/
-│   └── productos.json
+├── bin/
+|   └── Debug/
+|       └── net10.0/
+|           └── Data/
+│               └── productos.json
 │
 ├── Program.cs
 └── README.md
