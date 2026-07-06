@@ -297,7 +297,7 @@ Este proyecto forma parte de una serie de aplicaciones desarrolladas para aprend
 | ✅ 01 - Calculadora | Finalizado |
 | ✅ 02 - Agenda Electrónica | Finalizado |
 | 🚧 03 - Sistema de Inventario | En desarrollo |
-| ⏳ 04 - Cajero Automático | Pendiente |
+| 🚧 04 - Cajero Automático | Pendiente |
 | ⏳ 05 - API REST | Pendiente |
 | ⏳ 06 - Sistema de Ventas | Pendiente |
 
